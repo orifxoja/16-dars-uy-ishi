@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  max-width: 1440px;
+  padding: 0px 100px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+  align-items: center;
+}
+span {
+  background-color: blue;
+  padding: 3px;
+  border-radius: 10px;
+  margin: 0 10px;
+  font-size: 25px;
+}
+.button:hover {
+  background-color: blue;
+}
+button {
+  transition: all 0.3s ease-in;
+}
+.header-left {
+  color: black;
+  font-size: 25px;
+}
+.header-right a {
+  gap: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0 30px;
+}
+main {
+  max-width: 1440px;
+  padding: 0px 100px;
+}
+.container2 {
+  margin-top: 40px;
+}
+.main-parent {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.main-left {
+  text-align: start;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+.virtual {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.button {
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.p2 {
+  color: #7d7987;
+  text-align: center;
+  margin-top: 40px;
+}
+.container3 {
+  max-width: 1440px;
+
+  margin-top: 40px;
+  display: flex;
+}
+.cards-parent {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.card:hover {
+  background-color: blue;
+}
+
+.card {
+  padding: 50px;
+  background-color: #e7e7e7;
+  border-radius: 30px;
+  width: 380px;
+  height: 380px;
+  transition: all 0.3s ease-in;
+}
+.h3 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.p3 {
+  margin-top: 20px;
+  font-size: 16px;
+}
